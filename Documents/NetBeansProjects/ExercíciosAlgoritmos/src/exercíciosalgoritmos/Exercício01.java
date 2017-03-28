@@ -14,11 +14,5 @@ public class Exercício01 {
         r = (n1*n2);
         System.out.println("Esse é o resultado da multiplicação: "+r);
         System.out.println("Fim do Processo.");
-        
-        
-        
-        
-        
     }
-    
 }

@@ -1,0 +1,13 @@
+package ExercícioDaSala;
+ import java.util.Scanner;
+  public class LaçosDeRepetição2 {
+    public static void main (String [] args){
+       Scanner leitor = new Scanner (System.in);
+       int x;
+        System.out.println("Digite um número: ");
+        x = leitor.nextInt();
+        for(int i = 1; i <=x; i = i + 2){
+             System.out.println("Os números ímpares são: "+i);
+        }
+    }
+}

@@ -1,0 +1,10 @@
+package ExercícioDaSala;
+public class LaçosDeRepetição03 {
+    public static void main (String [] args){
+        int reg = 0;
+        System.out.println("Contagem regressiva de 100 a 0!");
+        for(int i = 100; i >=reg; i = i - 5){
+        System.out.println(i);
+        }
+    }
+}

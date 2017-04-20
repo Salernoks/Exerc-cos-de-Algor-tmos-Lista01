@@ -1,0 +1,12 @@
+package exercícios.algoritmos.lista.pkg02;
+    public class Exercício04 {
+      public static void main (String [] args){
+        int n = 0;
+          System.out.println("Digite um número: ");
+        while(n < 10000){
+            n = n + 10;
+       System.out.println(n);
+
+    }
+}
+    }

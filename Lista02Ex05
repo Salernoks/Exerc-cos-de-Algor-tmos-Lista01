@@ -1,0 +1,10 @@
+package exercícios.algoritmos.lista.pkg02;
+public class Exercíco05 {
+    public static void main (String [] args){
+        int reg = 1;
+        System.out.println("Núemros pares de 100 a 1 (que não é um número par)!");
+        for(int i = 100; i >=reg; i = i - 2){
+        System.out.println(i);
+    }  System.out.println("1");
+  }
+}

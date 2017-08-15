@@ -1,0 +1,27 @@
+package swingapp01;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.SwingUtilities;
+
+public class SwingApp01 {
+    public static void main(String[] args) {
+        
+       Runnable thread = new Runnable(){
+       public void run (){    
+              criarGUI();
+       }
+    };
+       SwingUtilities.invokeLater(thread);
+    }
+    
+    public static void criarGUI(){
+        JFrame frame = new JFrame();
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JLabel label = new JLabel("Olá, mundo!");
+        frame.getContentPane().add(label);
+        frame.pack();
+        frame.setVisible(true);
+        
+    }
+}
